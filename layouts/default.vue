@@ -16,8 +16,10 @@
     created() {
       this.title = 'Album Comics Clone with Nuxt2 and Vite'
     },
-    data: {
-      title: ''
+    data() {
+      return {
+        title: ''
+      } 
     }
   })
 </script>
