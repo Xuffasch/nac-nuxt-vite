@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+h1 {
+    @apply m-2 p-2 text-lg text-albumBlue;
+}
+
+h2 {
+    @apply m-2 p-2 text-base text-black
+}
+
+p {
+    @apply m-2 p-2 text-sm text-black;
+}
+
+main {
+    @apply flex flex-col justify-start items-center
+}
+
+a {
+    @apply m-2 p-2 inline-block bg-yellow-400 text-lg;
+}

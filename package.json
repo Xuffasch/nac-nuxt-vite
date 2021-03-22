@@ -22,6 +22,6 @@
     },
     "dependencies": {
         "nuxt": "^2.15.3",
-        "vue-fragment": "^1.5.2"
+        "vue-frag": "^1.1.4"
     }
 }
