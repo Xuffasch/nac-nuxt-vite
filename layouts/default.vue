@@ -14,7 +14,7 @@
       frag
     },
     created() {
-      this.title = 'Album Comics Clone with Nuxt2 and Vite'
+      this.title = 'Album Comics Clone with Nuxt2 & Vite'
     },
     data() {
       return {

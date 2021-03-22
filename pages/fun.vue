@@ -1,9 +1,5 @@
 <template>
   <div v-frag>
-    <header>
-      <h1>Fun page</h1>
-      <p>All the fun when creating pages with Nuxt</p>
-    </header>
     <main>
       <br />
       <h2>Testing the new fragment directive</h2>
@@ -15,9 +11,10 @@
 
 <script>
   import frag from 'vue-frag';
-  export default {
+  export default ({
     directives: {
-      frag
-    }
-  }
+      frag,
+    },
+    layout: 'funLayout',
+  })
 </script>
