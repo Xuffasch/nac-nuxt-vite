@@ -21,6 +21,7 @@
         "postcss": "^8.2.8"
     },
     "dependencies": {
-        "nuxt": "^2.15.3"
+        "nuxt": "^2.15.3",
+        "vue-fragment": "^1.5.2"
     }
 }
