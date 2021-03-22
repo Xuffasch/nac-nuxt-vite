@@ -16,7 +16,9 @@
     "author": "programmerltwp",
     "license": "ISC",
     "devDependencies": {
-        "nuxt-vite": "^0.0.36"
+        "@nuxtjs/tailwindcss": "^4.0.1",
+        "nuxt-vite": "^0.0.36",
+        "postcss": "^8.2.8"
     },
     "dependencies": {
         "nuxt": "^2.15.3"
