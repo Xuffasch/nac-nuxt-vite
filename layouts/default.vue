@@ -8,11 +8,11 @@
 </template>
 
 <script>
-  import frag from 'vue-frag'
+  // import frag from 'vue-frag'
   export default ({
-    directives: {
-      frag
-    },
+    // directives: {
+    //   frag
+    // },
     created() {
       this.title = 'Album Comics Clone with Nuxt2 & Vite'
     },

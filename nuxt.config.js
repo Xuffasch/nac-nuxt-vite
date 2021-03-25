@@ -4,5 +4,7 @@ export default {
   tailwindcss: { 
     jit: true
   },
-  plugins: []
+  plugins: [
+    '~/plugins/vue-frag.js',
+  ]
 }
